@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/* Navbar */
+.navbar {
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ububtu', sans-serif;
+  font-size: 40px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* primeira sessão */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 40px auto;
+}
+
+.iphone {
+  height: 500px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  margin-top: 40px;
+}
+
+/* segunda sessão */
+
+#features {
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.features-text {
+  width: 250px;
+  margin: 0 auto 0 auto;
+  color: #8f8f8f;
+}
+
+.features-icons {
+  font-size: 50px;
+  color: #ef8172;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/* terceira sessão */
+
+#testimonials {
+  background-color: #ef8172;
+  margin-top: 111px;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 900;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* quarta sessão */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* quinta sessão */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-cards {
+  padding: 3% 2%;
+}
+
+/* sexta sessão */
+
+.cta-text {
+  color: white;
+  font-size: 3.4rem;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+/* sétima sessão */
+
+.footer-icons {
+  padding: 20px 10px;
+}
+
+/* media querys */
+
+@media (max-width: 991px) {
+  .first-section {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
